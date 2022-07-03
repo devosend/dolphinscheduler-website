@@ -6,6 +6,7 @@
   <title>Index &mdash; pydolphinscheduler 0.0.1 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -13,7 +14,9 @@
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/tabs.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -39,7 +42,9 @@
 <li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a></li>
 <li class="toctree-l1"><a class="reference internal" href="concept.html">Concepts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tasks/index.html">Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="howto/index.html">HOWTOs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cli.html">Command Line Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config.html">Configuration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
 </ul>
 
@@ -165,9 +170,17 @@
 <h2 id="_">_</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._DEFAULT_ATTR">_DEFAULT_ATTR (pydolphinscheduler.core.ProcessDefinition attribute)</a>
+      <li><a href="api.html#pydolphinscheduler.tasks.Python._build_exe_str">_build_exe_str() (pydolphinscheduler.tasks.Python method)</a>
 
       <ul>
+        <li><a href="tasks/python.html#pydolphinscheduler.tasks.python.Python._build_exe_str">(pydolphinscheduler.tasks.python.Python method)</a>
+</li>
+      </ul></li>
+      <li><a href="api.html#pydolphinscheduler.core.Engine._DEFAULT_ATTR">_DEFAULT_ATTR (pydolphinscheduler.core.Engine attribute)</a>
+
+      <ul>
+        <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._DEFAULT_ATTR">(pydolphinscheduler.core.ProcessDefinition attribute)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.core.Task._DEFAULT_ATTR">(pydolphinscheduler.core.Task attribute)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.side.Project._DEFAULT_ATTR">(pydolphinscheduler.side.Project attribute)</a>
@@ -207,9 +220,11 @@
         <li><a href="api.html#pydolphinscheduler.tasks.Switch._DEFAULT_ATTR">(pydolphinscheduler.tasks.Switch attribute)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._DEFINE_ATTR">_DEFINE_ATTR (pydolphinscheduler.core.ProcessDefinition attribute)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine._DEFINE_ATTR">_DEFINE_ATTR (pydolphinscheduler.core.Engine attribute)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._DEFINE_ATTR">(pydolphinscheduler.core.ProcessDefinition attribute)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.core.Task._DEFINE_ATTR">(pydolphinscheduler.core.Task attribute)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.side.Project._DEFINE_ATTR">(pydolphinscheduler.side.Project attribute)</a>
@@ -317,11 +332,15 @@
       </ul></li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._ensure_side_model_exists">_ensure_side_model_exists() (pydolphinscheduler.core.ProcessDefinition method)</a>
 </li>
+      <li><a href="tasks/func_wrap.html#pydolphinscheduler.tasks.func_wrap._get_func_str">_get_func_str() (in module pydolphinscheduler.tasks.func_wrap)</a>
+</li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._handle_root_relation">_handle_root_relation() (pydolphinscheduler.core.ProcessDefinition method)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._KEY_ATTR">_KEY_ATTR (pydolphinscheduler.core.ProcessDefinition attribute)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine._KEY_ATTR">_KEY_ATTR (pydolphinscheduler.core.Engine attribute)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._KEY_ATTR">(pydolphinscheduler.core.ProcessDefinition attribute)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.core.Task._KEY_ATTR">(pydolphinscheduler.core.Task attribute)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.side.Project._KEY_ATTR">(pydolphinscheduler.side.Project attribute)</a>
@@ -361,12 +380,12 @@
         <li><a href="api.html#pydolphinscheduler.tasks.Switch._KEY_ATTR">(pydolphinscheduler.tasks.Switch attribute)</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._parse_datetime">_parse_datetime() (pydolphinscheduler.core.ProcessDefinition static method)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition._pre_submit_check">_pre_submit_check() (pydolphinscheduler.core.ProcessDefinition method)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#pydolphinscheduler.tasks.Condition._set_dep">_set_dep() (pydolphinscheduler.tasks.Condition method)</a>
 
       <ul>
@@ -377,9 +396,11 @@
         <li><a href="tasks/switch.html#pydolphinscheduler.tasks.switch.Switch._set_dep">(pydolphinscheduler.tasks.switch.Switch method)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.core.Task._set_deps">_set_deps() (pydolphinscheduler.core.Task method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine._set_deps">_set_deps() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task._set_deps">(pydolphinscheduler.core.Task method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition._set_deps">(pydolphinscheduler.tasks.Condition method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX._set_deps">(pydolphinscheduler.tasks.DataX method)</a>
@@ -407,9 +428,11 @@
         <li><a href="api.html#pydolphinscheduler.tasks.Switch._set_deps">(pydolphinscheduler.tasks.Switch method)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.core.Task._task_custom_attr">_task_custom_attr (pydolphinscheduler.core.Task attribute)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine._task_custom_attr">_task_custom_attr (pydolphinscheduler.core.Engine attribute)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task._task_custom_attr">(pydolphinscheduler.core.Task attribute)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition._task_custom_attr">(pydolphinscheduler.tasks.Condition attribute)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX._task_custom_attr">(pydolphinscheduler.tasks.DataX attribute)</a>
@@ -635,9 +658,11 @@
       </ul></li>
       <li><a href="tasks/switch.html#pydolphinscheduler.tasks.switch.SwitchBranch.condition">condition (pydolphinscheduler.tasks.switch.SwitchBranch property)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.core.Task.condition_result">condition_result (pydolphinscheduler.core.Task property)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.condition_result">condition_result (pydolphinscheduler.core.Engine property)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.condition_result">(pydolphinscheduler.core.Task property)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.condition_result">(pydolphinscheduler.tasks.Condition property)</a>
 </li>
         <li><a href="tasks/condition.html#pydolphinscheduler.tasks.condition.Condition.condition_result">(pydolphinscheduler.tasks.condition.Condition property)</a>
@@ -731,9 +756,11 @@
 </li>
       <li><a href="api.html#pydolphinscheduler.constants.DefaultTaskCodeNum.DEFAULT">DEFAULT (pydolphinscheduler.constants.DefaultTaskCodeNum attribute)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.core.Task.DEFAULT_CONDITION_RESULT">DEFAULT_CONDITION_RESULT (pydolphinscheduler.core.Task attribute)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.DEFAULT_CONDITION_RESULT">DEFAULT_CONDITION_RESULT (pydolphinscheduler.core.Engine attribute)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.DEFAULT_CONDITION_RESULT">(pydolphinscheduler.core.Task attribute)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.DEFAULT_CONDITION_RESULT">(pydolphinscheduler.tasks.Condition attribute)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX.DEFAULT_CONDITION_RESULT">(pydolphinscheduler.tasks.DataX attribute)</a>
@@ -804,6 +831,10 @@
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.end_time">end_time (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
   </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#pydolphinscheduler.core.Engine">Engine (class in pydolphinscheduler.core)</a>
+</li>
+  </ul></td>
 </tr></table>
 
 <h2 id="F">F</h2>
@@ -841,9 +872,11 @@
 <h2 id="G">G</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#pydolphinscheduler.core.Task.gen_code_and_version">gen_code_and_version() (pydolphinscheduler.core.Task method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.gen_code_and_version">gen_code_and_version() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.gen_code_and_version">(pydolphinscheduler.core.Task method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.gen_code_and_version">(pydolphinscheduler.tasks.Condition method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX.gen_code_and_version">(pydolphinscheduler.tasks.DataX method)</a>
@@ -879,9 +912,11 @@
 </li>
       <li><a href="api.html#pydolphinscheduler.core.Database.get_database_info">get_database_info() (pydolphinscheduler.core.Database method)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.get_define">get_define() (pydolphinscheduler.core.ProcessDefinition method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.get_define">get_define() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.get_define">(pydolphinscheduler.core.ProcessDefinition method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.core.Task.get_define">(pydolphinscheduler.core.Task method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.side.Project.get_define">(pydolphinscheduler.side.Project method)</a>
@@ -933,9 +968,11 @@
       </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.get_define_custom">get_define_custom() (pydolphinscheduler.core.ProcessDefinition method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.get_define_custom">get_define_custom() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.get_define_custom">(pydolphinscheduler.core.ProcessDefinition method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.core.Task.get_define_custom">(pydolphinscheduler.core.Task method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.side.Project.get_define_custom">(pydolphinscheduler.side.Project method)</a>
@@ -975,9 +1012,11 @@
         <li><a href="api.html#pydolphinscheduler.tasks.Switch.get_define_custom">(pydolphinscheduler.tasks.Switch method)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.tasks.Flink.get_jar_id">get_jar_id() (pydolphinscheduler.tasks.Flink method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.get_jar_id">get_jar_id() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.tasks.Flink.get_jar_id">(pydolphinscheduler.tasks.Flink method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.MR.get_jar_id">(pydolphinscheduler.tasks.MR method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.Spark.get_jar_id">(pydolphinscheduler.tasks.Spark method)</a>
@@ -991,9 +1030,11 @@
         <li><a href="api.html#pydolphinscheduler.tasks.SubProcess.get_process_definition_info">(pydolphinscheduler.tasks.SubProcess method)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.tasks.Flink.get_resource_info">get_resource_info() (pydolphinscheduler.tasks.Flink method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.get_resource_info">get_resource_info() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.tasks.Flink.get_resource_info">(pydolphinscheduler.tasks.Flink method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.MR.get_resource_info">(pydolphinscheduler.tasks.MR method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.Spark.get_resource_info">(pydolphinscheduler.tasks.Spark method)</a>
@@ -1037,10 +1078,12 @@
 <h2 id="I">I</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentItem.is_all_task">is_all_task (pydolphinscheduler.tasks.dependent.DependentItem property)</a>
+      <li><a href="api.html#pydolphinscheduler.constants.ResourceKey.ID">ID (pydolphinscheduler.constants.ResourceKey attribute)</a>
 </li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentItem.is_all_task">is_all_task (pydolphinscheduler.tasks.dependent.DependentItem property)</a>
+</li>
       <li><a href="api.html#pydolphinscheduler.core.Database.items">items() (pydolphinscheduler.core.Database method)</a>
 </li>
   </ul></td>
@@ -1151,6 +1194,8 @@
 </li>
         <li><a href="tasks/flink.html#module-pydolphinscheduler.tasks.flink">pydolphinscheduler.tasks.flink</a>
 </li>
+        <li><a href="tasks/func_wrap.html#module-pydolphinscheduler.tasks.func_wrap">pydolphinscheduler.tasks.func_wrap</a>
+</li>
         <li><a href="tasks/http.html#module-pydolphinscheduler.tasks.http">pydolphinscheduler.tasks.http</a>
 </li>
         <li><a href="tasks/map_reduce.html#module-pydolphinscheduler.tasks.map_reduce">pydolphinscheduler.tasks.map_reduce</a>
@@ -1200,10 +1245,6 @@
 <h2 id="O">O</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionReleaseState.OFFLINE">OFFLINE (pydolphinscheduler.constants.ProcessDefinitionReleaseState attribute)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionReleaseState.ONLINE">ONLINE (pydolphinscheduler.constants.ProcessDefinitionReleaseState attribute)</a>
-</li>
       <li><a href="tasks/condition.html#pydolphinscheduler.tasks.condition.ConditionOperator.operator_name">operator_name() (pydolphinscheduler.tasks.condition.ConditionOperator class method)</a>
 
       <ul>
@@ -1240,9 +1281,11 @@
       </ul></li>
       <li><a href="api.html#pydolphinscheduler.constants.TaskType.PROCEDURE">PROCEDURE (pydolphinscheduler.constants.TaskType attribute)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.core.Task.process_definition">process_definition (pydolphinscheduler.core.Task property)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.process_definition">process_definition (pydolphinscheduler.core.Engine property)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.process_definition">(pydolphinscheduler.core.Task property)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.process_definition">(pydolphinscheduler.tasks.Condition property)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX.process_definition">(pydolphinscheduler.tasks.DataX property)</a>
@@ -1277,8 +1320,6 @@
 </li>
       </ul></li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition">ProcessDefinition (class in pydolphinscheduler.core)</a>
-</li>
-      <li><a href="api.html#pydolphinscheduler.constants.ProcessDefinitionReleaseState">ProcessDefinitionReleaseState (class in pydolphinscheduler.constants)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.side.Project">Project (class in pydolphinscheduler.side)</a>
 </li>
@@ -1380,6 +1421,13 @@
 </li>
       </ul></li>
       <li>
+    pydolphinscheduler.tasks.func_wrap
+
+      <ul>
+        <li><a href="tasks/func_wrap.html#module-pydolphinscheduler.tasks.func_wrap">module</a>
+</li>
+      </ul></li>
+      <li>
     pydolphinscheduler.tasks.http
 
       <ul>
@@ -1468,6 +1516,40 @@
 <h2 id="Q">Q</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.query_resource">query_resource() (pydolphinscheduler.core.Engine method)</a>
+
+      <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.query_resource">(pydolphinscheduler.core.Task method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Condition.query_resource">(pydolphinscheduler.tasks.Condition method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.DataX.query_resource">(pydolphinscheduler.tasks.DataX method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Dependent.query_resource">(pydolphinscheduler.tasks.Dependent method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Flink.query_resource">(pydolphinscheduler.tasks.Flink method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Http.query_resource">(pydolphinscheduler.tasks.Http method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.MR.query_resource">(pydolphinscheduler.tasks.MR method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Procedure.query_resource">(pydolphinscheduler.tasks.Procedure method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Python.query_resource">(pydolphinscheduler.tasks.Python method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Shell.query_resource">(pydolphinscheduler.tasks.Shell method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Spark.query_resource">(pydolphinscheduler.tasks.Spark method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Sql.query_resource">(pydolphinscheduler.tasks.Sql method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.SubProcess.query_resource">(pydolphinscheduler.tasks.SubProcess method)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Switch.query_resource">(pydolphinscheduler.tasks.Switch method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#pydolphinscheduler.side.Queue">Queue (class in pydolphinscheduler.side)</a>
 </li>
   </ul></td>
@@ -1488,10 +1570,46 @@
         <li><a href="tasks/dependent.html#pydolphinscheduler.tasks.dependent.DependentOperator.relation">(pydolphinscheduler.tasks.dependent.DependentOperator property)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.constants.JavaGatewayDefault.RESULT_DATA">RESULT_DATA (pydolphinscheduler.constants.JavaGatewayDefault attribute)</a>
+      <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.release_state">release_state (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.resource_list">resource_list (pydolphinscheduler.core.Engine property)</a>
+
+      <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.resource_list">(pydolphinscheduler.core.Task property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Condition.resource_list">(pydolphinscheduler.tasks.Condition property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.DataX.resource_list">(pydolphinscheduler.tasks.DataX property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Dependent.resource_list">(pydolphinscheduler.tasks.Dependent property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Flink.resource_list">(pydolphinscheduler.tasks.Flink property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Http.resource_list">(pydolphinscheduler.tasks.Http property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.MR.resource_list">(pydolphinscheduler.tasks.MR property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Procedure.resource_list">(pydolphinscheduler.tasks.Procedure property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Python.resource_list">(pydolphinscheduler.tasks.Python property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Shell.resource_list">(pydolphinscheduler.tasks.Shell property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Spark.resource_list">(pydolphinscheduler.tasks.Spark property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Sql.resource_list">(pydolphinscheduler.tasks.Sql property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.SubProcess.resource_list">(pydolphinscheduler.tasks.SubProcess property)</a>
+</li>
+        <li><a href="api.html#pydolphinscheduler.tasks.Switch.resource_list">(pydolphinscheduler.tasks.Switch property)</a>
+</li>
+      </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api.html#pydolphinscheduler.constants.ResourceKey">ResourceKey (class in pydolphinscheduler.constants)</a>
+</li>
+      <li><a href="api.html#pydolphinscheduler.constants.JavaGatewayDefault.RESULT_DATA">RESULT_DATA (pydolphinscheduler.constants.JavaGatewayDefault attribute)</a>
+</li>
       <li><a href="api.html#pydolphinscheduler.constants.JavaGatewayDefault.RESULT_MESSAGE_KEYWORD">RESULT_MESSAGE_KEYWORD (pydolphinscheduler.constants.JavaGatewayDefault attribute)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.constants.JavaGatewayDefault.RESULT_MESSAGE_SUCCESS">RESULT_MESSAGE_SUCCESS (pydolphinscheduler.constants.JavaGatewayDefault attribute)</a>
@@ -1520,9 +1638,11 @@
         <li><a href="tasks/switch.html#pydolphinscheduler.tasks.switch.SwitchCondition.set_define_attr">(pydolphinscheduler.tasks.switch.SwitchCondition method)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.core.Task.set_downstream">set_downstream() (pydolphinscheduler.core.Task method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.set_downstream">set_downstream() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.set_downstream">(pydolphinscheduler.core.Task method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.set_downstream">(pydolphinscheduler.tasks.Condition method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX.set_downstream">(pydolphinscheduler.tasks.DataX method)</a>
@@ -1550,9 +1670,11 @@
         <li><a href="api.html#pydolphinscheduler.tasks.Switch.set_downstream">(pydolphinscheduler.tasks.Switch method)</a>
 </li>
       </ul></li>
-      <li><a href="api.html#pydolphinscheduler.core.Task.set_upstream">set_upstream() (pydolphinscheduler.core.Task method)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.set_upstream">set_upstream() (pydolphinscheduler.core.Engine method)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.set_upstream">(pydolphinscheduler.core.Task method)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.set_upstream">(pydolphinscheduler.tasks.Condition method)</a>
 </li>
         <li><a href="api.html#pydolphinscheduler.tasks.DataX.set_upstream">(pydolphinscheduler.tasks.DataX method)</a>
@@ -1666,15 +1788,19 @@
   <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="api.html#pydolphinscheduler.core.Task">Task (class in pydolphinscheduler.core)</a>
 </li>
+      <li><a href="tasks/func_wrap.html#pydolphinscheduler.tasks.func_wrap.task">task() (in module pydolphinscheduler.tasks.func_wrap)</a>
+</li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.task_definition_json">task_definition_json (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.task_list">task_list (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
       <li><a href="api.html#pydolphinscheduler.core.ProcessDefinition.task_location">task_location (pydolphinscheduler.core.ProcessDefinition property)</a>
 </li>
-      <li><a href="api.html#pydolphinscheduler.core.Task.task_params">task_params (pydolphinscheduler.core.Task property)</a>
+      <li><a href="api.html#pydolphinscheduler.core.Engine.task_params">task_params (pydolphinscheduler.core.Engine property)</a>
 
       <ul>
+        <li><a href="api.html#pydolphinscheduler.core.Task.task_params">(pydolphinscheduler.core.Task property)</a>
+</li>
         <li><a href="api.html#pydolphinscheduler.tasks.Condition.task_params">(pydolphinscheduler.tasks.Condition property)</a>
 </li>
         <li><a href="tasks/condition.html#pydolphinscheduler.tasks.condition.Condition.task_params">(pydolphinscheduler.tasks.condition.Condition property)</a>
